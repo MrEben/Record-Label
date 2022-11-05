@@ -1,0 +1,121 @@
+nav {
+  z-index: 2;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  background: linear-gradient(-70deg, rgba(0, 0, 0, 0.3), transparent);
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);
+}
+.logo {
+  /* height: 40px; */
+  width: 300px;
+}
+.links a {
+  color: var(--clr-primary-6);
+  font-weight: 800;
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  background: var(--clr-primary-8);
+  color: var(--clr-white);
+  padding-left: 1.5rem;
+}
+
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.show-container {
+  height: 10rem;
+}
+.active {
+  background: linear-gradient(30deg, black, transparent);
+}
+.show-nav {
+  visibility: visible;
+  transition: var(--transition);
+}
+.hide-nav {
+  visibility: hidden;
+  transition: var(--transition);
+  transform: translateY(-100%);
+}
+@media screen and (min-width: 800px) {
+  nav {
+    position: fixed;
+  }
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  /* normal */
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: var(--clr-primary-5);
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--clr-white);
+  }
+}
+/* =====MEDIA QUERRIES(MEDIUM)====== */
+
+@media screen and (max-width: 1024px) {
+  .social-icons {
+    display: none;
+  }
+}
+/* =====MEDIA QUERRIES(SMALL)====== */
+
+@media screen and (max-width: 600px) {
+}

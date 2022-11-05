@@ -1,0 +1,11 @@
+.btnscroll {
+  position: fixed;
+  width: 50px;
+  right: 2rem;
+  bottom: 40px;
+  height: 40px;
+  border-radius: 25rem 25rem;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+}

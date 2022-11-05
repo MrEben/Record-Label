@@ -1,0 +1,8 @@
+#team {
+  height: fit-content;
+}
+.team-page {
+  display: grid;
+  grid-template-rows: 26% 70%;
+  gap: 2%;
+}
