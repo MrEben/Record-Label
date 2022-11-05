@@ -1,5 +1,5 @@
 import Card from './Card';
-import {Img} from '../Team/Images'
+
 
 const Member = ({ image, name, job, socials }) => {
   return (

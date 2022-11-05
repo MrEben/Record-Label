@@ -29,6 +29,7 @@
   --clr-grey-12: hsl(327, 70%, 12%);
   --clr-white: #fff;
   --clr-black: #222;
+  --logo-color:rgb(255, 10, 10);
   --transition: all 400ms ease;
   --spacing: 0.1rem;
   --radius: 0.5rem;
@@ -229,12 +230,20 @@ img {
   border-top: 1px solid var(--clr-white);
   margin-top: 1.5rem;
 }
-
+.members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
 /* =====MEDIA QUERRIES(MEDIUM)====== */
 
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
+  }
+  .members {
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   section {
@@ -257,7 +266,11 @@ img {
     font-size: 2.2rem;
     line-height: 1.1rem;
   }
+  .members {
+    gap: 0.8rem;
+    grid-template-columns: 1fr;
+  }
   .flip {
-    padding: 0.6rem;
+    padding: 0.2rem;
   }
 }

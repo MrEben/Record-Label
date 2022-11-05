@@ -1,6 +1,6 @@
 #services {
   margin-top: 3rem;
-  height: max-content;
+  height: 90%;
 }
 .services-container {
   display: grid;
@@ -44,4 +44,5 @@
     grid-template-columns: 1fr;
     gap: 3%;
   }
+ 
 }

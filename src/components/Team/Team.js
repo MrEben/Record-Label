@@ -17,7 +17,17 @@ const Team = () => {
         />
         <article className="team-page">
           <div className="upper">
-            <div className="message">yfutrute</div>
+            <div className="message">
+              <h1>
+                Meet our team of creative advertisers,and world class{' '}
+                <i>problem solvers</i>{' '}
+              </h1>
+              <p>
+                To be the company the public wants us to be, it takes an{' '}
+                <i>electric group</i> of passionate operators. Get to know the
+                people leadind at <span>busy</span> Entertainment{' '}
+              </p>
+            </div>
             <div className="design">gffyguj</div>
           </div>
           <div className="members">

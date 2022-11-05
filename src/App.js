@@ -5,6 +5,7 @@ import Contact from './components/contact/contact';
 import Footer from './components/footer/Footer';
 import Services from './components/services/Services';
 import ScrollButton from './components/ScrollButton/scroll';
+import Team from './components/Team/Team'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
