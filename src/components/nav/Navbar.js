@@ -1,11 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { FaBars } from 'react-icons/fa';
-import { links, social } from './data';
-import logo from '../../assets/logo.png';
-import './nav.css';
-import { Link } from 'react-router-dom';
-
-// import useScroll from './useScroll';
+import React, { useState, useRef, useEffect } from "react";
+import { FaBars } from "react-icons/fa";
+import { links, social } from "./data";
+import logo from "../../assets/logo.png";
+import "./nav.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [navbar, setnavbar] = useState(false);
@@ -22,24 +20,20 @@ const Navbar = () => {
       setnavbar(false);
     }
   };
-  window.addEventListener('scroll', changeNavBackground);
+  window.addEventListener("scroll", changeNavBackground);
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
     if (showLinks) {
       linksContainerRef.current.style.height = `${linksHeight}px`;
     } else {
-      linksContainerRef.current.style.height = '0px';
+      linksContainerRef.current.style.height = "0px";
     }
   }, [showLinks]);
   const removeNav = () => {
-    linksContainerRef.current.style.height = '0px';
+    linksContainerRef.current.style.height = "0px";
   };
-  // const { y, x, scrollDirection } = useScroll();
   return (
-    <nav
-      // style={scrollDirection === 'down' ? 'show-nav' : 'hide-nav'}
-      className={navbar ? 'active' : 'not-active'}
-    >
+    <nav className={navbar ? "active" : "not-active"}>
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} className="logo" alt="logo" />
