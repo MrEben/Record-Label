@@ -1,21 +1,113 @@
 .contact-container {
   margin-top: 0;
+  margin-bottom: 0;
+  height: 80rem;
+  position: relative;
 }
+
 .background-styles {
   display: grid;
   grid-template-rows: 30% 70%;
   height: 100%;
-  width: 100%;
   top: 0;
   left: 0;
-  z-index: -999;
+  z-index: 99;
 }
 .background-style-top {
-  background: pink;
-  width: 20%;
+  background: var(--clr-pink);
+  width: 10%;
+  height: 40%;
+  margin-left: 90%;
+  border-radius: 66% 34% 0% 100%/0% 0% 100% 100%;
 }
 .background-style-down {
-  background: var(--clr-white);
+  background: var(--clr-grey-2);
+  margin-top: 40%;
+  width: 30%;
+  border-radius: 0 30rem 0 0;
+}
+.main-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 60rem;
+  width: 80%;
+  margin-top: 13%;
+  margin-left: 10%;
+  border-radius: var(--radius);
+  background-color: var(--clr-grey-8);
+}
+.apply-content {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  height: 100%;
+}
+.apply-upper {
+  background: var(--clr-grey-2);
+  height: 100%;
+  width: 100%;
+  border-radius: 0 0 0 10%;
+}
+.apply-text {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  margin-right: 53%;
+}
+.apply-text h5 {
+  font-weight: 300;
+  letter-spacing: var(--spacing);
+}
+.apply-text h1 {
+  text-transform: none;
+}
+.apply-text h4 {
+  margin: 1rem 0 2rem 0;
+}
+.apply-text span {
+  text-transform: capitalize;
+  color: var(--logo-color);
+}
+.apply-links {
+  display: flex;
+  gap: 0.5rem;
+}
+.btn.lg {
+  border-radius: 4rem;
+}
+.btn.bg {
+  background: var(--clr-grey-3);
+  border-color: transparent;
+  color: var(--clr-white);
+}
+.apply-form {
+  position: absolute;
+  top: 10%;
+  left: 53%;
+  background: var(--clr-grey-8);
+  height: 80%;
+  width: 40%;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+}
+.apply-lower-text {
+  color: var(--clr-grey-2);
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 53%;
+}
+.apply-lower-text h4 {
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+.apply-lower-text p {
+  margin-bottom: 1rem;
+}
+.apply-lower-text span {
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 0.9rem;
 }
 /* =====MEDIA QUERRIES(MEDIUM)====== */
 
@@ -24,4 +116,24 @@
 /* =====MEDIA QUERRIES(SMALL)====== */
 
 @media screen and (max-width: 600px) {
+  .apply-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+  }
+  .apply-upper {
+    height: fit-content;
+  }
+  .apply-text {
+    position: relative;
+    margin-right: 0;
+  }
+  .apply-form {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: fit-content;
+  }
+  .apply-links {
+    margin-bottom: 2rem;
+  }
 }

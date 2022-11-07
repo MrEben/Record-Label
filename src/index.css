@@ -29,6 +29,8 @@
   --clr-grey-12: hsl(327, 70%, 12%);
   --clr-white: #fff;
   --clr-black: #222;
+  --clr-pink: rgb(255, 191, 202);
+  --clr-yellow: rgb(225, 212, 26);
   --logo-color:rgb(255, 10, 10);
   --transition: all 400ms ease;
   --spacing: 0.1rem;
