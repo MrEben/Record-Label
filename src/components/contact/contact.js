@@ -1,9 +1,9 @@
 import React from "react";
 import "./contact.css";
 import { FaPhone } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
-import { BsWhatsapp } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { BsMessenger } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -56,7 +56,6 @@ const Contact = () => {
                 placeholder="Your Full Name Here..."
                 required
               />
-
               <input
                 type="text"
                 name="email"
@@ -87,9 +86,15 @@ const Contact = () => {
                 placeholder="Your Message Here"
                 required
               ></textarea>
-              <button type="submit" className="btn btn-primary">
-                send message
+              <button type="submit" className="btn bg">
+                submit your message
               </button>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
+                commodi odio corrupti reprehenderit voluptatibus, consequatur
+                veritatis aliquam odit itaque animi! nsbdvjah apples ans fruiyt
+                plO rw
+              </p>
             </form>
           </div>
           <div className="apply-lower">
@@ -112,13 +117,13 @@ const Contact = () => {
               <div className="follow">
                 <h5>Follow Us</h5>
                 <a href="https://www.google.com">
-                  <MdOutlineEmail />
+                  <MdEmail />
                 </a>
                 <a href="https://www.google.com">
-                  <BsWhatsapp />
+                  <IoLogoWhatsapp />
                 </a>
                 <a href="https://www.google.com">
-                  <RiMessengerLine />
+                  <BsMessenger />
                 </a>
               </div>
             </div>
