@@ -13,14 +13,7 @@ const Navbar = () => {
   const toggleLinks = () => {
     setShowLinks(!showLinks);
   };
-  const changeNavBackground = () => {
-    if (window.scrollY >= 80) {
-      setnavbar(true);
-    } else {
-      setnavbar(false);
-    }
-  };
-  window.addEventListener("scroll", changeNavBackground);
+
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
     if (showLinks) {

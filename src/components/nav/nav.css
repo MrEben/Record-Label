@@ -1,7 +1,6 @@
 nav {
   z-index: 2;
   top: 0;
-  position: fixed;
   width: 100vw;
   background: linear-gradient(-70deg, rgba(0, 0, 0, 0.3), transparent);
 }
@@ -64,9 +63,7 @@ nav {
   transform: translateY(-100%);
 }
 @media screen and (min-width: 800px) {
-  nav {
-    position: fixed;
-  }
+ 
   .nav-center {
     max-width: 1170px;
     margin: 0 auto;

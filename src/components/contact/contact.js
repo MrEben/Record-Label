@@ -19,23 +19,79 @@ const Contact = () => {
               <h5>APPLY NOW</h5>
               <h1>
                 Work for <i>yourself</i>, not by yourself with <span>busy</span>{" "}
-                entertainment
+                Entertainment
               </h1>
               <h4>
                 Send us a message and we'll get it answered as soon as possible
               </h4>
               <div className="apply-links">
-                <a href="https://www.google.com" className="btn lg">
+                <a
+                  target="_blank"
+                  href="https://www.google.com"
+                  className="btn lg"
+                >
                   find out more
                 </a>
-                <a href="" className="btn bg">
-                  place call
-                  <FaPhone />
+                <a
+                  target="_blank"
+                  href="https://www.google.com"
+                  className="btn bg"
+                >
+                  place call <FaPhone />
                 </a>
               </div>
             </div>
           </div>
-          <div className="apply-form"></div>
+          <div className="apply-form">
+            <form>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Full Name Here..."
+                required
+              />
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Full Name Here..."
+                required
+              />
+
+              <input
+                type="text"
+                name="email"
+                placeholder="Your Email Here..."
+                required
+              />
+              <input
+                type="text"
+                name="email"
+                placeholder="Your Email Here..."
+                required
+              />
+              <input
+                type="text"
+                name="email"
+                placeholder="Your Email Here..."
+                required
+              />
+              <input
+                type="text"
+                name="email"
+                placeholder="Your Email Here..."
+                required
+              />
+              <textarea
+                name="message"
+                rows="7"
+                placeholder="Your Message Here"
+                required
+              ></textarea>
+              <button type="submit" className="btn btn-primary">
+                send message
+              </button>
+            </form>
+          </div>
           <div className="apply-lower">
             <div className="apply-lower-text">
               <h4>General Enquiries</h4>
@@ -50,9 +106,21 @@ const Contact = () => {
               </p>
               <h4>Insurance Agent?</h4>
               <p>
-                Become aninsurance agent by contacting us at{" "}
+                Become an insurance agent by contacting us at{" "}
                 <span>info@busyentertainment.yahoo.org</span>
               </p>
+              <div className="follow">
+                <h5>Follow Us</h5>
+                <a href="https://www.google.com">
+                  <MdOutlineEmail />
+                </a>
+                <a href="https://www.google.com">
+                  <BsWhatsapp />
+                </a>
+                <a href="https://www.google.com">
+                  <RiMessengerLine />
+                </a>
+              </div>
             </div>
           </div>
         </article>
