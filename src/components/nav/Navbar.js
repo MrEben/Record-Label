@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { FaBars } from "react-icons/fa";
+import { BiMenuAltLeft } from "react-icons/bi";
 import { links, social } from "./data";
 import logo from "../../assets/logo.png";
 import "./nav.css";
@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="nav-header">
           <img src={logo} className="logo" alt="logo" />
           <button className="nav-toggle" onClick={toggleLinks}>
-            <FaBars />
+            <BiMenuAltLeft />
           </button>
         </div>
         <div className="links-container" ref={linksContainerRef}>
@@ -48,16 +48,7 @@ const Navbar = () => {
             })}
           </ul>
         </div>
-        <ul className="social-icons">
-          {social.map((socialIcon) => {
-            const { id, url, icon } = socialIcon;
-            return (
-              <li key={id}>
-                <a href={url}>{icon}</a>
-              </li>
-            );
-          })}
-        </ul>
+       
       </div>
     </nav>
   );

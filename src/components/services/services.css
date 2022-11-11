@@ -1,12 +1,11 @@
 #services {
-  margin-top: 3rem;
   height: 90%;
+  padding-top: 1rem;
 }
 .services-container {
   display: grid;
   grid-template-columns: 38% 56%;
   gap: 6%;
-  margin-top: 1rem;
 }
 .services-img {
   border-radius: 1rem;

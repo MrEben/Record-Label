@@ -98,7 +98,7 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: var(--clr-primary-9);
     transition: var(--transition);
   }
   .social-icons a:hover {
@@ -108,9 +108,9 @@ nav {
 /* =====MEDIA QUERRIES(MEDIUM)====== */
 
 @media screen and (max-width: 1024px) {
-  .social-icons {
-    display: none;
-  }
+  /* .social-icons {
+    flex-direction: row;
+  } */
 }
 /* =====MEDIA QUERRIES(SMALL)====== */
 

@@ -16,8 +16,8 @@ const App = () => {
         <ScrollButton />
         <Routes>
           <Route path="/" element={<Header />} />
-          <Route path="/apply" element={<Contact />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/apply" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
