@@ -9,10 +9,9 @@ import {
 import Card from "../UI/Card";
 import { useState } from "react";
 import { testimonials } from "./data";
-import { useEffect } from "react";
 
 const Reviews = () => {
-  const [index, setIndex] = useState(3);
+  const [index, setIndex] = useState(0);
   const { name, quote, job, avatar } = testimonials[index];
   const prevQuote = () => {
     setIndex(index - 1);

@@ -6,6 +6,9 @@ import { footerLinks } from "./data";
 import { social } from "../nav/data";
 
 const Footer = () => {
+  const subscribe = (e) => {
+    e.target.reset();
+  };
   return (
     <footer>
       <div className="footer-links">
@@ -82,7 +85,7 @@ const Footer = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
             optio enim fuga amet!
           </h5>
-          <form>
+          <form onClick={subscribe}>
             <input
               className="user-email"
               type="text"
@@ -90,7 +93,7 @@ const Footer = () => {
               placeholder="Email Address"
               required
             />
-            <input className="newsletter-btn" type="button" value="Subscribe" />
+            <input className="newsletter-btn" type="submit" value="Subscribe" />
           </form>
         </div>
       </div>

@@ -10,7 +10,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit harum reiciendis officia sapiente atque perferendis eos necessitatibus ipsum quisquam possimus.",
     job: "Web Developer",
-    avatar: `${Img5}`,
+    avatar: `${Img3}`,
   },
   {
     id: 2,
@@ -34,6 +34,6 @@ export const testimonials = [
     quote:
       "sit amet consectetur adipisicing elit. Fugit harum reiciendis officia sapiente atque perferendis eos necessitatibus ipsum quisquam possimus.",
     job: "UI/UX Designer",
-    avatar: `${Img3}`,
+    avatar: `${Img5}`,
   },
 ];

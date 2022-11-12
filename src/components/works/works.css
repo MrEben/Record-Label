@@ -3,10 +3,10 @@
 }
 .offers-wrapper small {
   color: whitesmoke;
+  margin-bottom: 0.5rem;
 }
 
 .offers-wrapper {
-  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
