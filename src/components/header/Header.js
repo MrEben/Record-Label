@@ -13,7 +13,7 @@ const Header = () => {
             <video className="video-container" autoPlay loop muted>
               <source src={Bg} type="video/mp4" />
             </video>
-            <h1>
+            <h1 className='animate__animated animate__backInDown'>
               <q>You can cage the singer but not the song</q> Harry Belafonte
             </h1>
             <h3>Promote your music on the world's best streaming platforms</h3>
