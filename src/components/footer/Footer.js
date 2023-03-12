@@ -99,8 +99,8 @@ const Footer = () => {
       </div>
       <div className="footer-copyrights">
         <h5>
-          copyright &copy;2022 all rights reserved..this template was built by
-          <span> ebenezer</span>
+          copyright &copy;2023 all rights reserved..this template was built by
+          <span> ebenezer odame aniagyei</span>
         </h5>{" "}
         <ul className="social-icons">
           {social.map((socialIcon) => {

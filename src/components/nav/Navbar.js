@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { BiMenuAltLeft } from "react-icons/bi";
-import { links, social } from "./data";
+import { links } from "./data";
 import logo from "../../assets/logo.png";
 import "./nav.css";
 import { Link } from "react-router-dom";

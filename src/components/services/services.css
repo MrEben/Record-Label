@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 38% 56%;
   gap: 6%;
+  padding-top: 1rem;
 }
 .services-img {
   border-radius: 1rem;

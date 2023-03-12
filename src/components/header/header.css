@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 85vh;
   width: 100vw;
   overflow: hidden;
   display: grid;
@@ -52,8 +52,11 @@ header::after {
 }
 /* ===========MEDIA QUERRIES SMALL ========*/
 @media screen and (max-width: 600px) {
+  header{
+    height: 78vh;
+    margin-top: -3rem;
+  }
   .header-page h1 {
     font-size: 2rem;
-    /* line-height: 0.9; */
   }
 }

@@ -60,13 +60,10 @@
   border: none;
   background: transparent;
 }
-/* =====MEDIA QUERRIES(MEDIUM)====== */
 
-@media screen and (max-width: 1024px) {
-}
 /* =====MEDIA QUERRIES(SMALL)====== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   .testimonials {
     width: 90%;
   }

@@ -1,6 +1,5 @@
 import Card from './Card';
 
-
 const Member = ({ image, name, job, socials }) => {
   return (
     <Card className="member">

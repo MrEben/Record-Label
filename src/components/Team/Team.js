@@ -19,7 +19,7 @@ const Team = () => {
           <div className="upper">
             <div className="message">
               <h1>
-                Meet our team of creative advertisers,and world class{' '}
+                Meet our team of creative advertisers, <i>and</i> world class{' '}
                 <i>problem solvers</i>{' '}
               </h1>
               <p>
@@ -28,7 +28,7 @@ const Team = () => {
                 people leadind at <span>busy</span> Entertainment{' '}
               </p>
             </div>
-            <div className="design">gffyguj</div>
+            <div className="design"></div>
           </div>
           <div className="members">
             {squad.map((item) => {

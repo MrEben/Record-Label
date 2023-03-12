@@ -106,6 +106,9 @@
   padding: 1rem;
   color: var(--clr-black);
 }
+.apply-form input:focus{
+  border: 1px solid var(--clr-grey-6);
+}
 .form-itself {
   display: flex;
   flex-direction: column;

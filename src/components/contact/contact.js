@@ -50,13 +50,13 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Your Full Name Here..."
+                  placeholder="Your First Name Here..."
                   required
                 />
                 <input
                   type="text"
                   name="name"
-                  placeholder="Your Full Name Here..."
+                  placeholder="Your Last Name Here..."
                   required
                 />
                 <input
@@ -68,19 +68,19 @@ const Contact = () => {
                 <input
                   type="text"
                   name="email"
-                  placeholder="Your Email Here..."
+                  placeholder="Your Phone Number here..."
                   required
                 />
                 <input
                   type="text"
                   name="email"
-                  placeholder="Your Email Here..."
+                  placeholder="Your House Address Here..."
                   required
                 />
                 <input
                   type="text"
                   name="email"
-                  placeholder="Your Email Here..."
+                  placeholder="Your ID No. here..."
                   required
                 />
                 <textarea
@@ -90,7 +90,7 @@ const Contact = () => {
                   required
                 ></textarea>
                 <button type="submit" className="btn bg">
-                  submit your message
+                  submit your response
                 </button>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse

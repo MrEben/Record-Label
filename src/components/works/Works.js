@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { FaCrown } from 'react-icons/fa';
-import { AiFillCaretRight } from 'react-icons/ai';
-import './works.css';
-import { packages } from './data';
-import OffersHead from './OffersHead';
-import Card from '../UI/Card';
+import React from "react";
+import { FaCrown } from "react-icons/fa";
+import { AiFillCaretRight } from "react-icons/ai";
+import "./works.css";
+import { packages } from "./data";
+import OffersHead from "./OffersHead";
+import Card from "../UI/Card";
 
 function Works() {
   return (

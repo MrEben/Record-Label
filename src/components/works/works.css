@@ -1,5 +1,6 @@
 #works {
   height: max-content;
+  padding-top: 4rem;
 }
 .offers-wrapper small {
   color: whitesmoke;
@@ -19,7 +20,11 @@
   }
 }
 @media screen and (max-width: 600px) {
+  #works {
+    padding-top: 6rem;
+  }
   .offers-wrapper {
     grid-template-columns: 1fr;
+    margin-top: 1.8rem;
   }
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import './services.css';
 import Img from '../../assets/pexels-george-milton-6953870.jpg';
 import { FaServicestack } from 'react-icons/fa';
-import { BiMoney } from 'react-icons/bi';
 import { packages, bulletpoints } from './data';
 import OffersHead from '../works/OffersHead';
 import Flip from '../UI/Flip';

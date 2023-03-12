@@ -140,6 +140,9 @@ footer {
   .footer-copyrights {
     grid-template-columns: 1fr;
   }
+  .footer-copyrights h5{
+    padding-left: 1rem;
+  }
   .footer-links {
     grid-template-columns: 1fr;
   }
