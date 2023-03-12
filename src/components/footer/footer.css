@@ -21,6 +21,9 @@ footer {
 .footer-links h5 {
   color: var(--clr-grey-8);
 }
+.footer-links ul li a:hover{
+  color: var(--clr-white);
+}
 .logo-message {
   display: inline-block;
 }

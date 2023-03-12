@@ -11,21 +11,21 @@ export const packages = [
     id: 1,
     icon: <AiOutlineTeam />,
     title: 'Great team',
-    info: ' quehyn ue 2ue uwe',
+    info: 'Unbeatable synergy in our record label team',
     url: 'https://www.google.com',
   },
   {
     id: 2,
     icon: <AiTwotoneCustomerService />,
     title: 'Personal Support',
-    info: 'lorem wy quehyn ue 2ue uwe',
+    info: 'Empowering your personal growth with support',
     url: 'https://www.google.com',
   },
   {
     id: 3,
     icon: <AiFillTool />,
     title: 'Digital tool kit',
-    info: 'lueyh wjedh qujey qujy quehyn ue 2ue uwe',
+    info: 'Equipping you with a powerful digital toolkit',
     url: 'https://www.google.com',
   },
   {
@@ -33,7 +33,7 @@ export const packages = [
 
     icon: <AiFillSetting />,
     title: 'Music Analytics',
-    info: 'qujey qujy quehyn ue 2ue uwe',
+    info: 'Insightful music analytics for informed decisions',
     url: 'https://www.google.com',
   },
 ];
