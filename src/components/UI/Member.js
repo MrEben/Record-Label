@@ -4,7 +4,7 @@ const Member = ({ image, name, job, socials }) => {
   return (
     <Card className="member">
       <div className="member-img">
-        <img src={image} alt={name} srcset="" />
+        <img src={image} alt={name} />
       </div>
       <h3>{name}</h3>
       <p>{job}</p>
