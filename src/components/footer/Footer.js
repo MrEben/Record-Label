@@ -25,17 +25,17 @@ const Footer = () => {
           <h2>contact us</h2>
           <ul>
             <li>
-              <a target="_blank" href="">
+              <a target="_blank" href="/">
                 locate us at Choco avenue
               </a>
             </li>
             <li>
-              <a target="_blank" href="">
+              <a target="_blank" href="/">
                 phone +233 65 617 7263
               </a>
             </li>
             <li>
-              <a target="_blank" href="">
+              <a target="_blank" href="/">
                 info@busyentertainment.com
               </a>
             </li>
@@ -45,17 +45,17 @@ const Footer = () => {
           <h2>permalinks</h2>
           <ul>
             <li>
-              <a target="_blank" href="">
+              <a target="_blank" href="/">
                 busy access
               </a>
             </li>
             <li>
-              <a target="_blank" href="">
+              <a target="_blank" href="/">
                 my account
               </a>
             </li>
             <li>
-              <a target="_blank" href="">
+              <a target="_blank" href="/">
                 get artifacts
               </a>
             </li>
@@ -67,14 +67,14 @@ const Footer = () => {
               const { id, link1, link2, link3, footerHead } = item;
               return (
                 <div key={id} className="dropdown">
-                  <button class="dropbtn">
+                  <button className="dropbtn">
                     {footerHead}
                     <AiOutlineDown />
                   </button>
-                  <div class="dropdown-content">
-                    <a href="#">{link1}</a>
-                    <a href="#">{link2}</a>
-                    <a href="#">{link3}</a>
+                  <div className="dropdown-content">
+                    <a href="google.com">{link1}</a>
+                    <a href="google.com">{link2}</a>
+                    <a href="google.com">{link3}</a>
                   </div>
                 </div>
               );

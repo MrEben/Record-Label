@@ -54,7 +54,7 @@ header::after {
 @media screen and (max-width: 600px) {
   header{
     height: 78vh;
-    margin-top: -3rem;
+    margin-top: -1rem;
   }
   .header-page h1 {
     font-size: 2rem;

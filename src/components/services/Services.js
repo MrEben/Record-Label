@@ -13,7 +13,7 @@ const Services = () => {
       <OffersHead icon={<FaServicestack />} title="Our Services" />
       <div className=" services-container">
         <div className="left-side">
-          <img className="services-img" src={Img} alt="image here" />
+          <img className="services-img" srcSet={Img} alt="img here" />
         </div>
         <div className="right-side">
           <div className="flip-downs">

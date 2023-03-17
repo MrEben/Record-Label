@@ -11,7 +11,7 @@ const Member = ({ image, name, job, socials }) => {
       <div className="member-socials">
         {socials.map(({ icon, link }, index) => {
           return (
-            <a key={index} href={link} target="_blank" rel="noreffernoopener">
+            <a key={index} href={link} target="_blank" rel="noreferrer">
               {icon}
             </a>
           );
